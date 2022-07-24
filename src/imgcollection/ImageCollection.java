@@ -188,7 +188,7 @@ public class ImageCollection extends JFrame implements ActionListener {
 					    // 배열을 가져옵니다.
 					    org.json.JSONArray jArray = jObject.getJSONArray("documents");
 
-					    String savePath = "C:\\test\\"; // 이미지 저장 파일
+					    String savePath = save; // 이미지 저장 파일
 					    String fileFormat = "jpg";
 					    
 
